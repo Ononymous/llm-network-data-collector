@@ -1,81 +1,72 @@
-# Agent-Based Data Collection Tool Using RAG/LLMs and PyAutoGUI
+# Autonomous Agent-Based Network Data Collection
 
-**Team Members:** Tim Qin, Adyah Rastogi, Wesley Truong, Gen Tamada
-
----
-
-## Proposal
-We propose developing an agent-based tool that leverages Retrieval-Augmented Generation (RAG) / Large Language Models (LLMs) combined with PyAutoGUI to automate data-collection workflows for various web-based applications. 
-
-For example, this tool could:
-- Start and stop a YouTube session
-- Collect telemetry data using the "Stats-for-Nerds" tool
-- Store session-specific data 
-
-All without requiring manual programming or intervention.
+**Team Members**: Tim Qin, Adyah Rastogi, Wesley Truong, Gen Tamada
 
 ---
 
-## Motivation and Problem
-There is a lack of robust, automated data collection methods for networking research. Current datasets, such as **CIC-IDS-2017**, are outdated and often lead to poorly trained models due to issues like shortcut learning.
+## Project Overview
 
-Our goal is to leverage LLMs to:
-- Dynamically determine which websites to visit
-- Decide where to click
-- Automate the steps necessary for accurate data collection 
-
-All **without explicit human-defined instructions**.
+We are building an **autonomous agent-based framework** using RAG/LLMs and **PyAutoGUI** to automate data-collection workflows for various web-based applications. This system minimizes human involvement by enabling intelligent agents to dynamically interact with applications (like YouTube) to extract telemetry and network data without hardcoding steps or scripts.
 
 ---
 
-## Existing Approaches
-- **Manual Data Collection:**  
-  Traditionally done in controlled environments, following rigid, predefined rules. Even partial automation still requires custom scripting for every new task.
-  
-- **Limitations:**  
-  - Not reflective of real-world, dynamic network usage.
-  - Time-consuming and inflexible.
-  
-- **Reinforcement Learning (RL):**  
-  While RL could offer smarter automation, it suffers from:
-  - Extensive reward engineering requirements.
-  - Difficulty in avoiding biased or non-representative data.
-  
----
+## Motivation
 
-## Existing Datasets
-- **CIC-IDS-2017:**  
-  Includes various attack types (Brute Force, Heartbleed, Botnet, DoS, DDoS, etc.).  
-  Known for causing shortcut learning issues in ML models.
-
-- **UNSW-NB15:**  
-  A hybrid dataset combining real modern activities with synthetic attacks.  
-  Better than older datasets, but still limited in adaptability and realism.
+- **Problem**: Networking ML models often suffer from poor generalizability due to outdated, static, or unrealistic datasets (e.g., CIC-IDS-2017).
+- **Goal**: Enable real-world, flexible, and extensible data collection via autonomous agents, reducing manual scripting and making the process adaptive to new applications or environments.
 
 ---
 
-## Novelty and Implementation
-Our approach introduces:
-- A **fully autonomous data collection system** powered by LLMs and PyAutoGUI.
-- The LLM will:
-  - Make decisions throughout the data collection pipeline.
-  - Generate new pipelines autonomously without human guidance.
-  
-This removes the need for manual programming when adapting to new data collection scenarios.
+## Updated Proof-of-Concept Roadmap
+
+### Phase 1: YouTube Workflow Prototype
+
+- Use PyAutoGUI + LLM agent to:
+  - Start a YouTube session
+  - Collect telemetry via "Stats-for-Nerds" using GUI scraping or Chrome DevTools protocol
+  - Collect packet traces locally (e.g., via `tcpdump`)
+- **Contact**: [@lkoduru@ucsb.edu](mailto:lkoduru@ucsb.edu) to identify unique YouTube workflows for automation
+
+### Phase 2: Integration with netUnicorn
+
+- Wrap the YouTube workflow as a netUnicorn **pipeline**:
+  - Define self-contained tasks (e.g., launch browser, collect pcap, log telemetry)
+  - Use `netUnicorn.Nodes` and `Pipeline` abstractions
+- **Contact**: [@rbeltiukov@ucsb.edu](mailto:rbeltiukov@ucsb.edu) for assistance with netUnicorn integration and deployment
+
+### Phase 3: Demonstrate Generalizability
+
+- Extend the system to support other applications:
+  - Amazon Prime
+  - Netflix
+  - Zoom (e.g., automated meeting, screen recording, telemetry scraping)
+- Show that new workflows can be added with **minimal new code**, leveraging existing abstractions
 
 ---
 
-## Metrics and Evaluation
-- **Success Criteria:**
-  - Collection of high-quality, unbiased data suitable for networking research.
-  - Data should minimize:
-    - Shortcut learning
-    - Out-of-distribution (OOD) sampling issues
-    - Spurious correlations
+## Key Technologies
 
-- **Evaluation Method:**
-  - Train a simple ML model using the collected data.
-  - Validate the model's performance to assess data quality and generalizability.
+- **PyAutoGUI**: GUI automation
+- **RAG/LLM**: Smart decision making for UI interaction
+- **tcpdump/Wireshark**: Packet trace capture
+- **netUnicorn**: Deployment framework to modularize and scale data collection experiments
 
 ---
 
+## Evaluation Metrics
+
+- Successful autonomous collection of:
+  - Application-specific telemetry (e.g., bitrate, resolution, buffering events)
+  - Network packet traces
+- Quality of datasets in downstream ML model performance:
+  - Reduction in shortcut learning
+  - Resistance to out-of-distribution (OOD) drift
+  - Avoidance of spurious correlations
+
+---
+
+## References
+
+- [netUnicorn Paper (ACM '23)](https://netunicorn.cs.ucsb.edu)
+- CIC-IDS-2017 Dataset
+- UNSW-NB15 Dataset
