@@ -25,14 +25,12 @@ We are building an **autonomous agent-based framework** using RAG/LLMs and **PyA
   - Start a YouTube session
   - Collect telemetry via "Stats-for-Nerds" using GUI scraping or Chrome DevTools protocol
   - Collect packet traces locally (e.g., via `tcpdump`)
-- **Contact**: [@lkoduru@ucsb.edu](mailto:lkoduru@ucsb.edu) to identify unique YouTube workflows for automation
 
 ### Phase 2: Integration with netUnicorn
 
 - Wrap the YouTube workflow as a netUnicorn **pipeline**:
   - Define self-contained tasks (e.g., launch browser, collect pcap, log telemetry)
   - Use `netUnicorn.Nodes` and `Pipeline` abstractions
-- **Contact**: [@rbeltiukov@ucsb.edu](mailto:rbeltiukov@ucsb.edu) for assistance with netUnicorn integration and deployment
 
 ### Phase 3: Demonstrate Generalizability
 
@@ -67,6 +65,6 @@ We are building an **autonomous agent-based framework** using RAG/LLMs and **PyA
 
 ## References
 
-- [netUnicorn Paper (ACM '23)](https://netunicorn.cs.ucsb.edu)
+- [netUnicorn Paper (ACM '23)](https://sites.cs.ucsb.edu/~arpitgupta/pdfs/netUnicorn.pdf)
 - CIC-IDS-2017 Dataset
 - UNSW-NB15 Dataset
