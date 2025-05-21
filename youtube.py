@@ -58,7 +58,7 @@ def run():
     telemetry = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.firefox.launch(headless=False)
         page = browser.new_page()
 
         # Pick a random noun and go to YouTube search page
