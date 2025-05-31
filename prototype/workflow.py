@@ -59,7 +59,7 @@ def run(num_videos: int):
     telemetry = []
 
     with sync_playwright() as p:
-        browser = p.firefox.launch(headless=False)
+        browser = p.chromium.launch(headless=False)
         page    = browser.new_page()
 
         for i in range(num_videos):
@@ -113,7 +113,7 @@ def run(num_videos: int):
                     "() => document.querySelector('.html5-video-info-panel').innerText"
                 )
                 stats.append(vid_stats)
-                print("   •", stats[0])  # just preview first line
+                print("   •", stats[-1])  # just preview first line
                 time.sleep(1)
 
 
