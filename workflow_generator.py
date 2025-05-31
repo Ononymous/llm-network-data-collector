@@ -5,7 +5,7 @@ import google.generativeai as genai
 from pathlib import Path
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyBk6rcIiJVPblmaMrZOjeBgCpOZmyqU6k8"  # Replace with your actual API key
+GEMINI_API_KEY = "API_KEY"  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 class WorkflowGenerator:
