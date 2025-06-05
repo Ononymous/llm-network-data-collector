@@ -11,6 +11,9 @@ genai.configure(api_key=GEMINI_API_KEY)
 class WorkflowGenerator:
     def __init__(self):
         self.model = genai.GenerativeModel('gemini-2.5-flash-preview-05-20')
+        # Create directories if they don't exist
+        os.makedirs("playwright_test", exist_ok=True)
+        os.makedirs("generated_test", exist_ok=True)
         
     def get_user_inputs(self):
         """Step 1 & 2: Ask for URL and filename"""
@@ -33,8 +36,8 @@ class WorkflowGenerator:
         """Step 3: Run Playwright codegen with the given URL and filename using os.system"""
         print(f"\nGenerating Playwright test for: {url}")
         
-        output_file = f"{filename}.py"
-        cmd = f"playwright codegen {url} -b ff -o {output_file}"
+        output_file = f"playwright_test/{filename}.py"
+        cmd = f"playwright codegen {url} -b ff -o \"{output_file}\""
         
         try:
             print(f"Running command: {cmd}")
@@ -117,7 +120,7 @@ Start with ```python
 
     def save_generalized_code(self, code, filename):
         """Step 5 (continued): Save the generated code to a new file"""
-        output_file = f"{filename}_gen.py"
+        output_file = f"generated_test/{filename}_gen.py"
         try:
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write(code)
@@ -192,7 +195,7 @@ Start with ```python
                 updated_code = updated_code.split("```python")[1].split("```")[0].strip()
             elif updated_code.startswith("```"):
                 updated_code = updated_code.split("```")[1].split("```")[0].strip()
-            output_file = f"{filename}_gen.py"
+            output_file = f"generated_test/{filename}_gen.py"
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write(updated_code)
             print(f"Code updated and saved to {output_file}")
