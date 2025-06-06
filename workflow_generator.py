@@ -3,9 +3,15 @@ import json
 import time
 import google.generativeai as genai
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Configure Gemini API
-GEMINI_API_KEY = "API_KEY"  # Replace with your actual API key
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if not GEMINI_API_KEY:
+    raise ValueError("GEMINI_API_KEY not found in environment variables. Please check your .env file.")
 genai.configure(api_key=GEMINI_API_KEY)
 
 class WorkflowGenerator:
@@ -37,7 +43,7 @@ class WorkflowGenerator:
         print(f"\nGenerating Playwright test for: {url}")
         
         output_file = f"playwright_test/{filename}.py"
-        cmd = f"playwright codegen {url} -b ff -o \"{output_file}\""
+        cmd = f"playwright codegen {url} --channel chrome -o \"{output_file}\""
         
         try:
             print(f"Running command: {cmd}")
