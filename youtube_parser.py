@@ -14,7 +14,7 @@ def parse_stats_block(stats_text):
         "current_res": match(r"Current / Optimal Res ([\dx@]+)"),
         "optimal_res": match(r"Current / Optimal Res [\dx@]+ / ([\dx@]+)"),
         "volume": match(r"Volume / Normalized ([\d%]+)"),
-        "normalized_volume": match(r"Volume / Normalized [\d%]+ / ([\w\s().%-]+)"),
+        "normalized_volume": match(r"Volume / Normalized [\d%]+ / ([\w\s().%-]+)\n"),
         "codecs": match(r"Codecs (.*?) /"),
         "audio_codec": match(r"Codecs .*? / (.*?)\n"),
         "connection_speed": match(r"Connection Speed ([\d,]+ Kbps)"),
