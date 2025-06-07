@@ -1,0 +1,2442 @@
+[
+  {
+    "video_url": "https://www.youtube.com//watch?v=RlT1jmMbNQQ&pp=ygUM4KSu4KS-4KSk4KS-",
+    "query": "माता",
+    "duration": 7205.000090702948,
+    "watched": 5.501721671867853,
+    "stats_collections": [
+      {
+        "timestamp_watched": 1.0384118556976318,
+        "stats": {
+          "video_id": "RlT1jmMbNQQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@30",
+          "optimal_res": "1280x720@30",
+          "volume": "100%",
+          "normalized_volume": "100%\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "mp4a.40.2 (140)",
+          "connection_speed": "4924 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "19.99 s",
+          "live_mode": "Post-Live Manifestless",
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-19.992 P L",
+          "date": "Fri May 30 2025 20:17:47 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 2.0725200176239014,
+        "stats": {
+          "video_id": "RlT1jmMbNQQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@30",
+          "optimal_res": "1280x720@30",
+          "volume": "100%",
+          "normalized_volume": "100%\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "mp4a.40.2 (140)",
+          "connection_speed": "4924 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "19.99 s",
+          "live_mode": "Post-Live Manifestless",
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-19.992 P L",
+          "date": "Fri May 30 2025 20:17:48 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 3.3343870639801025,
+        "stats": {
+          "video_id": "RlT1jmMbNQQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 21",
+          "current_res": "1280x720@30",
+          "optimal_res": "1280x720@30",
+          "volume": "100%",
+          "normalized_volume": "100%\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "mp4a.40.2 (140)",
+          "connection_speed": "7613 Kbps",
+          "network_activity": "332 KB",
+          "buffer_health": "24.36 s",
+          "live_mode": "Post-Live Manifestless",
+          "mystery_text": "SABR, s:8 t:10.67 b:0.000-34.992 L pbs:-3592",
+          "date": "Fri May 30 2025 20:17:49 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 4.3534791469573975,
+        "stats": {
+          "video_id": "RlT1jmMbNQQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 51",
+          "current_res": "1280x720@30",
+          "optimal_res": "1280x720@30",
+          "volume": "100%",
+          "normalized_volume": "100%\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "mp4a.40.2 (140)",
+          "connection_speed": "7613 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "23.34 s",
+          "live_mode": "Post-Live Manifestless",
+          "mystery_text": "SABR, s:8 t:11.69 b:0.000-34.992 L pbs:-3592",
+          "date": "Fri May 30 2025 20:17:50 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 5.387115001678467,
+        "stats": {
+          "video_id": "RlT1jmMbNQQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 81",
+          "current_res": "1280x720@30",
+          "optimal_res": "1280x720@30",
+          "volume": "100%",
+          "normalized_volume": "100%\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "mp4a.40.2 (140)",
+          "connection_speed": "7613 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "22.36 s",
+          "live_mode": "Post-Live Manifestless",
+          "mystery_text": "SABR, s:8 t:12.72 b:0.000-34.992 L pbs:-3592",
+          "date": "Fri May 30 2025 20:17:51 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 5.529599905014038,
+        "stats": {
+          "video_id": "RlT1jmMbNQQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 81",
+          "current_res": "1280x720@30",
+          "optimal_res": "1280x720@30",
+          "volume": "100%",
+          "normalized_volume": "100%\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "mp4a.40.2 (140)",
+          "connection_speed": "7613 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "22.36 s",
+          "live_mode": "Post-Live Manifestless",
+          "mystery_text": "SABR, s:8 t:12.72 b:0.000-34.992 L pbs:-3592",
+          "date": "Fri May 30 2025 20:17:51 GMT-0700 (Pacific Daylight Time)"
+        }
+      }
+    ]
+  },
+  {
+    "video_url": "https://www.youtube.com//watch?v=cqbuEh2CXAA&pp=ygUM4KSG4KSm4KSu4KWA",
+    "query": "आदमी",
+    "duration": 30.041,
+    "watched": 5.829372712989984,
+    "stats_collections": [
+      {
+        "timestamp_watched": 1.0331439971923828,
+        "stats": {
+          "video_id": "GnVqpmuySTQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "DRC (content loudness 4.8dB)\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "2919 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "18.52 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-18.517 P L",
+          "date": "Fri May 30 2025 20:18:04 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 2.060305118560791,
+        "stats": {
+          "video_id": "GnVqpmuySTQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "DRC (content loudness 4.8dB)\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "2919 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "18.52 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-18.517 P L",
+          "date": "Fri May 30 2025 20:18:05 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 3.0906972885131836,
+        "stats": {
+          "video_id": "GnVqpmuySTQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "DRC (content loudness 4.8dB)\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "2919 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "18.52 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-18.517 P L",
+          "date": "Fri May 30 2025 20:18:06 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 4.127636909484863,
+        "stats": {
+          "video_id": "GnVqpmuySTQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "DRC (content loudness 4.8dB)\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "2919 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "18.52 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-18.517 P L",
+          "date": "Fri May 30 2025 20:18:07 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 5.157994985580444,
+        "stats": {
+          "video_id": "GnVqpmuySTQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "DRC (content loudness 4.8dB)\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "2919 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "18.52 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-18.517 P L",
+          "date": "Fri May 30 2025 20:18:08 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 5.864423036575317,
+        "stats": {
+          "video_id": "GnVqpmuySTQ",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "DRC (content loudness 4.8dB)\nCodecs vp09.00.51.08.01.01.01.01.00 (247)",
+          "codecs": "vp09.00.51.08.01.01.01.01.00 (247)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "2919 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "18.52 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-18.517 P L",
+          "date": "Fri May 30 2025 20:18:08 GMT-0700 (Pacific Daylight Time)"
+        }
+      }
+    ]
+  },
+  {
+    "video_url": "https://www.youtube.com//watch?v=ik8jfDQrLAs&pp=ygUK2YXYr9mK2YbYqQ%3D%3D",
+    "query": "مدينة",
+    "duration": 207.061,
+    "watched": 7.638973238209159,
+    "stats_collections": [
+      {
+        "timestamp_watched": 1.0394799709320068,
+        "stats": {
+          "video_id": "ik8jfDQrLAs",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@25",
+          "optimal_res": "1280x720@25",
+          "volume": "100%",
+          "normalized_volume": "75% (content loudness 2.5dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "2455 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "24.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-24.000 P L",
+          "date": "Fri May 30 2025 20:18:20 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 2.070935010910034,
+        "stats": {
+          "video_id": "ik8jfDQrLAs",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@25",
+          "optimal_res": "1280x720@25",
+          "volume": "100%",
+          "normalized_volume": "75% (content loudness 2.5dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "2455 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "24.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-24.000 P L",
+          "date": "Fri May 30 2025 20:18:21 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 3.4736900329589844,
+        "stats": {
+          "video_id": "ik8jfDQrLAs",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 19",
+          "current_res": "1280x720@25",
+          "optimal_res": "1280x720@25",
+          "volume": "100%",
+          "normalized_volume": "75% (content loudness 2.5dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "4665 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "19.38 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:30.75 b:0.000-24.000,30.000-50.000 L pbs:-22889",
+          "date": "Fri May 30 2025 20:18:22 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 4.508142948150635,
+        "stats": {
+          "video_id": "ik8jfDQrLAs",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 44",
+          "current_res": "1280x720@25",
+          "optimal_res": "1280x720@25",
+          "volume": "100%",
+          "normalized_volume": "75% (content loudness 2.5dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "4665 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "18.37 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:31.76 b:0.000-24.000,30.000-50.000 L pbs:-22889",
+          "date": "Fri May 30 2025 20:18:23 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 5.567570924758911,
+        "stats": {
+          "video_id": "ik8jfDQrLAs",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 60",
+          "current_res": "1280x720@25",
+          "optimal_res": "1280x720@25",
+          "volume": "100%",
+          "normalized_volume": "75% (content loudness 2.5dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "4637 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "17.68 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:42.32 b:0.000-24.000,30.000-60.000 P L pbs:-22889",
+          "date": "Fri May 30 2025 20:18:24 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 6.605870962142944,
+        "stats": {
+          "video_id": "ik8jfDQrLAs",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 60",
+          "current_res": "1280x720@25",
+          "optimal_res": "1280x720@25",
+          "volume": "100%",
+          "normalized_volume": "75% (content loudness 2.5dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "4637 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "17.68 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:42.32 b:0.000-24.000,30.000-60.000 P L pbs:-22889",
+          "date": "Fri May 30 2025 20:18:25 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 7.630940198898315,
+        "stats": {
+          "video_id": "ik8jfDQrLAs",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 60",
+          "current_res": "1280x720@25",
+          "optimal_res": "1280x720@25",
+          "volume": "100%",
+          "normalized_volume": "75% (content loudness 2.5dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "4637 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "17.68 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:42.32 b:0.000-24.000,30.000-60.000 P L pbs:-22889",
+          "date": "Fri May 30 2025 20:18:26 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 8.502180099487305,
+        "stats": {
+          "video_id": "ik8jfDQrLAs",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 60",
+          "current_res": "1280x720@25",
+          "optimal_res": "1280x720@25",
+          "volume": "100%",
+          "normalized_volume": "75% (content loudness 2.5dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "4637 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:62.32 b:0.000-24.000,30.000-60.000 S L",
+          "date": "Fri May 30 2025 20:18:27 GMT-0700 (Pacific Daylight Time)"
+        }
+      }
+    ]
+  },
+  {
+    "video_url": "https://www.youtube.com//watch?v=QOBfEF9Gz5w&pp=ygUFbXVqZXLSBwkJsAkBhyohjO8%3D",
+    "query": "mujer",
+    "duration": 313.401,
+    "watched": 57.39633769678893,
+    "stats_collections": [
+      {
+        "timestamp_watched": 1.0374882221221924,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "372 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "20.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:44c t:0.00 b:0.000-20.001 P L",
+          "date": "Fri May 30 2025 20:18:37 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 2.617748975753784,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "372 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "20.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:5 t:0.00 b:0.000-20.001 P L",
+          "date": "Fri May 30 2025 20:18:39 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 3.6508359909057617,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 14",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "21.62 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:20.55 b:0.000-42.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:40 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 5.0438220500946045,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 20",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "41.19 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:0.81 b:0.000-42.000 P L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:41 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 6.082794904708862,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 20",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "41.19 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:0.81 b:0.000-42.000 P L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:42 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 7.1175432205200195,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 20",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "41.19 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:0.81 b:0.000-42.000 P L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:43 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 8.140926837921143,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 20",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "41.19 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:0.81 b:0.000-42.000 P L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:44 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 9.163907051086426,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 20",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "41.19 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:0.81 b:0.000-42.000 P L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:45 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 10.20255994796753,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 20",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "41.19 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:0.81 b:0.000-42.000 P L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:46 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 11.237496137619019,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 20",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "41.19 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:0.81 b:0.000-42.000 P L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:47 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 12.27432107925415,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 20",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "41.19 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:0.81 b:0.000-42.000 P L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:48 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 13.308959007263184,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 20",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "41.19 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:4 t:0.81 b:0.000-42.000 P L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:49 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 14.334594964981079,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 32",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "20.89 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:21.28 b:0.000-42.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:50 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 15.369178056716919,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 56",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "19.87 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:22.29 b:0.000-42.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:51 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 16.40122699737549,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 80",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "18.91 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:23.30 b:0.000-42.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:52 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 17.638072967529297,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 111",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "17.57 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:24.60 b:0.000-42.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:54 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 18.659749031066895,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 136",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "16.53 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:25.63 b:0.000-42.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:55 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 19.692103147506714,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 160",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "15.53 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:26.64 b:0.000-42.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:56 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 20.723942041397095,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 184",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1085 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "14.52 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:27.61 b:0.000-42.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:57 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 21.751021146774292,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 208",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "27.51 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:28.62 b:0.000-56.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:58 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 22.792535066604614,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 232",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "26.49 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:29.63 b:0.000-56.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:18:59 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 23.83340096473694,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 256",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "25.48 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:30.65 b:0.000-56.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:00 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 24.87393093109131,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 281",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "24.49 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:31.67 b:0.000-56.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:01 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 25.91020894050598,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 305",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "23.49 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:32.68 b:0.000-56.000 L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:02 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 27.446945905685425,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:03 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 28.480427026748657,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:04 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 29.513525009155273,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:05 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 30.549039125442505,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:06 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 32.02066993713379,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:92.93 b:0.000-56.000 S L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:08 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 33.05200791358948,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:92.93 b:0.000-56.000 S L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:09 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 34.088008880615234,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:92.93 b:0.000-56.000 S L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:10 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 35.12604808807373,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:92.93 b:0.000-56.000 S L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:11 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 36.16105008125305,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:12 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 37.19547700881958,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:13 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 38.22992515563965,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:14 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 39.25794506072998,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:72.93 b:0.000-56.000 S L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:15 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 40.64535593986511,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:92.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:17 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 41.682361125946045,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:92.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:18 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 42.720746994018555,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:92.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:19 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 43.75746393203735,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:92.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:20 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 44.796935081481934,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:92.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:21 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 45.828083992004395,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:92.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:22 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 46.866517066955566,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:92.93 b:0.000-56.000 SP L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:23 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 47.89843988418579,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "0 dropped of 311",
+          "current_res": "1280x720@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "1067 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:82.93 b:0.000-56.000 S L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:24 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 48.92901802062988,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "7622 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:25 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 49.96592402458191,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "7622 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:26 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 51.00037598609924,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "7622 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:27 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 52.0324809551239,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "7622 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:28 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 53.063504219055176,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "7622 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:29 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 54.10140109062195,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "7622 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:30 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 55.140918016433716,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "7622 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:31 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 56.17763614654541,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "7622 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:32 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 57.21650195121765,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "7622 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:33 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 57.437549114227295,
+        "stats": {
+          "video_id": "QOBfEF9Gz5w",
+          "viewport": "791x445*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x720@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "7622 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-13304",
+          "date": "Fri May 30 2025 20:19:34 GMT-0700 (Pacific Daylight Time)"
+        }
+      }
+    ]
+  },
+  {
+    "video_url": "https://www.youtube.com//watch?v=FJ0CRDzsuCs&pp=ygUFZ3J1cG_SBwkJsAkBhyohjO8%3D",
+    "query": "grupo",
+    "duration": 161.361,
+    "watched": 50.603819013951956,
+    "stats_collections": [
+      {
+        "timestamp_watched": 1.1301579475402832,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 16",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "5499 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "17.44 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:30.64 b:0.000-18.625,26.583-48.042 L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:44 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 2.316551923751831,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 21",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "27.19 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:5 t:20.85 b:0.000-48.042 P L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:45 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 3.744425058364868,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 42",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "16.38 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:8 t:31.71 b:0.000-48.042 L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:47 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 5.225852012634277,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:48 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 6.249316930770874,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:49 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 7.273218870162964,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:50 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 8.575300931930542,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:52 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 9.61228609085083,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:53 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 10.64054799079895,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:54 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 11.676958084106445,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:62.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:55 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 12.704374074935913,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:82.00 b:0.000-48.042 S L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:56 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 13.7396240234375,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:82.00 b:0.000-48.042 S L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:57 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 14.766260147094727,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:82.00 b:0.000-48.042 S L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:58 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 15.79759693145752,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:82.00 b:0.000-48.042 S L pbs:-25394",
+          "date": "Fri May 30 2025 20:19:59 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 16.834770917892456,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:102.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:00 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 17.86974811553955,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:102.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:01 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 18.900978088378906,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:102.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:02 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 19.943076848983765,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:122.00 b:0.000-48.042 S L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:03 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 20.97685408592224,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:19 t:122.00 b:0.000-48.042 S L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:04 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 22.364042043685913,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:112.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:05 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 23.3908429145813,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "0 dropped of 49",
+          "current_res": "1280x676@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "10610 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:15 t:112.00 b:0.000-48.042 SP L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:06 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 24.429224014282227,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:07 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 25.599320888519287,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:08 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 26.638829946517944,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:09 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 27.682950973510742,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:11 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 28.75139594078064,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:12 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 30.208220958709717,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:13 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 31.245269060134888,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:14 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 32.264182806015015,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:15 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 33.30070781707764,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:16 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 34.339396953582764,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:17 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 35.378515005111694,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:18 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 36.415533781051636,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:19 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 37.44854497909546,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:20 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 38.488353967666626,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:21 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 39.505085945129395,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:22 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 40.541348934173584,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:23 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 41.57876491546631,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:24 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 42.610572814941406,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:25 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 43.649046182632446,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:26 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 44.68739700317383,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:27 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 45.724884033203125,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:28 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 47.03541898727417,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:30 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 48.07044792175293,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:31 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 49.61214089393616,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:33 GMT-0700 (Pacific Daylight Time)"
+        }
+      },
+      {
+        "timestamp_watched": 50.64063096046448,
+        "stats": {
+          "video_id": "FJ0CRDzsuCs",
+          "viewport": "790x417*2.00",
+          "dropped_frames": "-",
+          "current_res": "0x0@24",
+          "optimal_res": "1280x676@24",
+          "volume": "100%",
+          "normalized_volume": "64% (content loudness 3.9dB)\nCodecs av01.0.05M.08 (398)",
+          "codecs": "av01.0.05M.08 (398)",
+          "audio_codec": "opus (251)",
+          "connection_speed": "21436 Kbps",
+          "network_activity": "0 KB",
+          "buffer_health": "0.00 s",
+          "live_mode": null,
+          "mystery_text": "SABR, s:80 t:0.00 b: P L pbs:-25394",
+          "date": "Fri May 30 2025 20:20:34 GMT-0700 (Pacific Daylight Time)"
+        }
+      }
+    ]
+  }
+]
