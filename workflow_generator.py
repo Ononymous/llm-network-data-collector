@@ -168,7 +168,7 @@ Start with ```python
             print(f"Error reading feedback file {path}: {e}")
             return None
 
-    def update_code_with_feedback(self, current_code, feedback, error_message, filename):
+    def update_code_with_feedback(self, current_code, feedback, original_code, error_message, filename):
         """Step 8: Send feedback (and any error details) back to Gemini to update the test code"""
         print("\nUpdating code based on feedback file...")
         error_section = f"\n\nIf the last run failed, here is the error message:\n{error_message}" if error_message else ""
@@ -178,8 +178,13 @@ You are an expert Playwright test automation engineer.
 Below is the current test code:
 {current_code}
 
+Here is the original recorded code:
+{original_code}
+
 User Feedback:
 {feedback}
+
+Here is the error message from the last run (if any):
 {error_section}
 
 Requirements:
@@ -251,7 +256,7 @@ Start with ```python
                     print(f"\nWorkflow completed. Final test file: {gen_file}")
                     break
                 error_message = stderr if not success else ""
-                current_code = self.update_code_with_feedback(current_code, feedback, error_message, filename)
+                current_code = self.update_code_with_feedback(current_code, feedback, original_code, error_message, filename)
                 print("\nRunning updated test...")
                 success, _, stderr = self.run_test(gen_file)
         except KeyboardInterrupt:
