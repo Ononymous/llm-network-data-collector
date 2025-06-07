@@ -5,11 +5,6 @@ import random
 import json
 
 def run_twitch_test(num_videos: int, collection_seconds: int):
-    """
-    Automates browsing random Twitch channels via twitch-tools.rootonline.de
-    and collects video statistics for a specified number of videos,
-    sampling once per second for collection_seconds seconds.
-    """
     telemetry = []
 
     with sync_playwright() as p:
@@ -43,15 +38,36 @@ def run_twitch_test(num_videos: int, collection_seconds: int):
                     raise RuntimeError("Iframe content frame not found.")
 
                 # 3. Dismiss audience popup if present
-                btn = iframe_frame.get_by_role("button", name="Start Watching")
-                if btn.is_visible(timeout=5000):
+                popup_btn = iframe_frame.get_by_role("button", name="Start Watching")
+                if popup_btn.is_visible(timeout=2000):
                     print("  Dismissing 'Intended for certain audiences' popup.")
-                    btn.click()
+                    popup_btn.click()
                     time.sleep(1)
                     iframe_frame = iframe_locator.content_frame
-                    iframe_frame.get_by_role("button", name="Settings").wait_for(state="visible", timeout=10000)
 
-                # 4–6. Open Settings → Advanced → ensure Video Stats checked
+                # 4. OFFLINE check: skip if streamer is offline
+                offline_label = iframe_frame.locator(
+                    "strong.CoreText-sc-1txzju1-0.krncnP", has_text="Offline"
+                )
+                if offline_label.count() and offline_label.first.is_visible(timeout=2000):
+                    print("  ⚠️ Streamer is offline. Skipping this video.")
+                    telemetry.append(current_video_data)
+                    num_videos -= 1
+                    continue
+
+                # 5. AD check: skip if ad banner text appears
+                ad_banner = iframe_frame.locator(
+                    "span[data-a-target='video-ad-banner-default-text'],"
+                    "p.CoreText-sc-1txzju1-0.dXULtJ",
+                    has_text="stick around to support the stream"
+                )
+                if ad_banner.count() and ad_banner.first.is_visible(timeout=2000):
+                    print("  ⚠️ Advertisement detected. Skipping this video.")
+                    telemetry.append(current_video_data)
+                    num_videos -= 1
+                    continue
+
+                # 6–8. Open Settings → Advanced → ensure Video Stats checked
                 iframe_frame.get_by_role("button", name="Settings").click()
                 iframe_frame.get_by_role("menuitem", name="Advanced").click()
                 chk = iframe_frame.get_by_role("checkbox", name="Video Stats")
@@ -59,7 +75,7 @@ def run_twitch_test(num_videos: int, collection_seconds: int):
                     chk.check()
                 print("  'Video Stats' enabled.")
 
-                # 7. Collect stats once per second for collection_seconds
+                # 9. Collect stats once per second for collection_seconds
                 print(f"  Collecting stats for {collection_seconds} seconds (1 sample/sec)...")
                 stats_samples = []
                 for sec in range(collection_seconds):
@@ -68,22 +84,18 @@ def run_twitch_test(num_videos: int, collection_seconds: int):
                     rows = iframe_frame.locator(
                         "tbody.tw-table-body tr[data-a-target='player-overlay-video-stats-row']"
                     )
-                    count = rows.count()
-                    if count == 0:
-                        print(f"    ⚠️ No stats rows found at sample {sec+1}.")
-                    else:
-                        for j in range(count):
-                            row = rows.nth(j)
-                            label = row.locator("td").nth(0).locator("p").inner_text().strip()
-                            value = row.locator("td").nth(1).locator("p").inner_text().strip()
-                            sample[label] = value
+                    for j in range(rows.count()):
+                        row = rows.nth(j)
+                        label = row.locator("td").nth(0).locator("p").inner_text().strip()
+                        value = row.locator("td").nth(1).locator("p").inner_text().strip()
+                        sample[label] = value
                     stats_samples.append(sample)
                     print(f"    [Sample {sec+1}] {sample}")
 
                 current_video_data["stats_samples"] = stats_samples
                 current_video_data["source_page_url"] = page.url
 
-                # 8. Close the stats panel if there's a close button
+                # 10. Close stats panel if present
                 close_btn = iframe_frame.get_by_role("button", name="Close video stats")
                 if close_btn.is_visible(timeout=3000):
                     close_btn.click()
@@ -91,14 +103,13 @@ def run_twitch_test(num_videos: int, collection_seconds: int):
                 telemetry.append(current_video_data)
                 print(f"  Telemetry collected for video {i+1}.")
 
-                # 9. Random pause before next iteration
+                # 11. Random pause before next iteration
                 time.sleep(random.uniform(2, 5))
 
             except Exception as e:
                 print(f"  ❌ Error on iteration {i+1}: {e}")
                 current_video_data["error"] = str(e)
-                if "stats_samples" not in current_video_data:
-                    current_video_data["stats_samples"] = []
+                current_video_data.setdefault("stats_samples", [])
                 telemetry.append(current_video_data)
                 time.sleep(random.uniform(5, 10))
 
@@ -109,13 +120,10 @@ def run_twitch_test(num_videos: int, collection_seconds: int):
     # Output & save
     print(f"\n💾 Collected telemetry for {len(telemetry)} videos:")
     print(json.dumps(telemetry, indent=2, ensure_ascii=False))
-    try:
-        with open("twitch_telemetry.json", "w", encoding="utf-8") as f:
-            json.dump(telemetry, f, indent=2, ensure_ascii=False)
-        print("Telemetry saved to twitch_telemetry.json")
-    except Exception as e:
-        print(f"Error saving telemetry to file: {e}")
-
+    with open("twitch_telemetry.json", "w", encoding="utf-8") as f:
+        json.dump(telemetry, f, indent=2, ensure_ascii=False)
+    print("Telemetry saved to twitch_telemetry.json")
+    
 if __name__ == "__main__":
     try:
         num_videos_to_process = int(input("How many random Twitch videos should I process? "))
