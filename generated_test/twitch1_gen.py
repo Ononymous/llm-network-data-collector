@@ -4,140 +4,111 @@ import time
 import random
 import json
 
-def run_twitch_test(num_videos: int):
+def run_twitch_test(num_videos: int, collection_seconds: int):
     """
     Automates browsing random Twitch channels via twitch-tools.rootonline.de
-    and collects video statistics for a specified number of videos.
+    and collects video statistics for a specified number of videos,
+    sampling once per second for collection_seconds seconds.
     """
-    telemetry = [] # List to store collected data for each video
+    telemetry = []
 
-    # Launch browser with sync_playwright context manager
     with sync_playwright() as p:
-        # Launch Chromium browser (Google Chrome), non-headless as requested
         browser = p.chromium.launch(
             executable_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
             headless=False
         )
-        context = browser.new_context() # Create a new browser context
-        page = context.new_page()       # Create a new page within the context
+        context = browser.new_context()
+        page = context.new_page()
 
-        print(f"Starting Twitch video stats collection for {num_videos} videos...")
+        print(f"Starting Twitch video stats collection for {num_videos} videos, "
+              f"{collection_seconds}s per video sample...")
 
-        # Loop for the desired number of videos
         for i in range(num_videos):
             print(f"\n--- Processing Video {i+1}/{num_videos} ---")
-            current_video_data = {"iteration": i + 1} # Dictionary to store data for current video
+            current_video_data = {"iteration": i + 1}
 
             try:
-                # 1. Navigate to the random channel preview page. This reloads the page
-                # and fetches a new random channel each iteration.
-                page.goto("https://twitch-tools.rootonline.de/random_channel_previews.php", wait_until="load")
-                page.wait_for_load_state("networkidle") # Wait for network to be idle
+                # 1. Navigate to random channel preview
+                page.goto(
+                    "https://twitch-tools.rootonline.de/random_channel_previews.php",
+                    wait_until="load"
+                )
                 print("  Navigated to random channel preview page.")
 
-                # 2. Ensure the main iframe containing the Twitch player is loaded and visible
+                # 2. Locate iframe
                 iframe_locator = page.locator("iframe")
-                iframe_locator.wait_for(state="visible", timeout=15000) # Increased timeout for stability
-                iframe_frame = iframe_locator.content_frame # Get the content frame of the iframe
-
+                iframe_locator.wait_for(state="visible", timeout=15000)
+                iframe_frame = iframe_locator.content_frame
                 if not iframe_frame:
-                    print("  Error: Could not get content frame of the iframe. Skipping this video.")
-                    current_video_data["error"] = "Iframe content frame not found."
-                    telemetry.append(current_video_data)
-                    continue
+                    raise RuntimeError("Iframe content frame not found.")
 
-                # 3. Handle "Intended for certain audiences" popup if it appears.
-                # This button is inside the iframe, as per the recorded code.
-                start_watching_button = iframe_frame.get_by_role("button", name="Intended for certain audiences")
-                if start_watching_button.is_visible(timeout=5000): # Check visibility with a timeout
-                    print("  ⚠️ 'Intended for certain audiences' popup detected. Clicking 'Start Watching'.")
-                    start_watching_button.click()
-                    time.sleep(1) # Small delay for UI to react
-                    # Re-get the iframe frame as content might have changed/reloaded
+                # 3. Dismiss audience popup if present
+                btn = iframe_frame.get_by_role("button", name="Start Watching")
+                if btn.is_visible(timeout=5000):
+                    print("  Dismissing 'Intended for certain audiences' popup.")
+                    btn.click()
+                    time.sleep(1)
                     iframe_frame = iframe_locator.content_frame
-                    if not iframe_frame:
-                        print("  Error: Iframe frame lost after popup dismissal. Skipping this video.")
-                        current_video_data["error"] = "Iframe lost after popup dismissal."
-                        telemetry.append(current_video_data)
-                        continue
-                    # Wait for settings button to be ready after dismissal
                     iframe_frame.get_by_role("button", name="Settings").wait_for(state="visible", timeout=10000)
-                else:
-                    print("  No 'Intended for certain audiences' popup detected.")
 
-                # 4. Open Settings panel within the iframe
-                settings_button = iframe_frame.get_by_role("button", name="Settings")
-                settings_button.wait_for(state="visible", timeout=10000) # Wait for settings button to be clickable
-                settings_button.click()
-                print("  Clicked 'Settings'.")
+                # 4–6. Open Settings → Advanced → ensure Video Stats checked
+                iframe_frame.get_by_role("button", name="Settings").click()
+                iframe_frame.get_by_role("menuitem", name="Advanced").click()
+                chk = iframe_frame.get_by_role("checkbox", name="Video Stats")
+                if not chk.is_checked():
+                    chk.check()
+                print("  'Video Stats' enabled.")
 
-                # 5. Open Advanced settings menu item
-                advanced_menu_item = iframe_frame.get_by_role("menuitem", name="Advanced")
-                advanced_menu_item.wait_for(state="visible", timeout=5000) # Wait for Advanced menu item
-                advanced_menu_item.click()
-                print("  Clicked 'Advanced'.")
+                # 7. Collect stats once per second for collection_seconds
+                print(f"  Collecting stats for {collection_seconds} seconds (1 sample/sec)...")
+                stats_samples = []
+                for sec in range(collection_seconds):
+                    time.sleep(1)
+                    sample = {}
+                    rows = iframe_frame.locator(
+                        "tbody.tw-table-body tr[data-a-target='player-overlay-video-stats-row']"
+                    )
+                    count = rows.count()
+                    if count == 0:
+                        print(f"    ⚠️ No stats rows found at sample {sec+1}.")
+                    else:
+                        for j in range(count):
+                            row = rows.nth(j)
+                            label = row.locator("td").nth(0).locator("p").inner_text().strip()
+                            value = row.locator("td").nth(1).locator("p").inner_text().strip()
+                            sample[label] = value
+                    stats_samples.append(sample)
+                    print(f"    [Sample {sec+1}] {sample}")
 
-                # 6. Ensure 'Video Stats' checkbox is checked
-                video_stats_checkbox = iframe_frame.get_by_role("checkbox", name="Video Stats")
-                if not video_stats_checkbox.is_checked():
-                    video_stats_checkbox.check()
-                    print("  Checked 'Video Stats' checkbox.")
-                else:
-                    print("  'Video Stats' checkbox already checked.")
-                
-                # 7. Collect video statistics from the displayed panel using the table rows
-                collected_stats = {}
-
-                # Locate all rows in the stats table
-                rows = iframe_frame.locator(
-                    "tbody.tw-table-body tr[data-a-target='player-overlay-video-stats-row']"
-                )
-                num_rows = rows.count()
-
-                if num_rows > 0:
-                    print(f"  Collecting {num_rows} video stats:")
-                    for j in range(num_rows):
-                        row = rows.nth(j)
-                        # First <td> contains the label, second <td> contains the value
-                        label = row.locator("td").nth(0).locator("p").inner_text().strip()
-                        value = row.locator("td").nth(1).locator("p").inner_text().strip()
-                        collected_stats[label] = value
-                        print(f"    - {label}: {value}")
-                else:
-                    print("  ⚠️ No video stats rows found in table.")
-
-                current_video_data["stats"] = collected_stats
+                current_video_data["stats_samples"] = stats_samples
                 current_video_data["source_page_url"] = page.url
 
-                # 9. Record the collected telemetry for the current video
+                # 8. Close the stats panel if there's a close button
+                close_btn = iframe_frame.get_by_role("button", name="Close video stats")
+                if close_btn.is_visible(timeout=3000):
+                    close_btn.click()
+
                 telemetry.append(current_video_data)
                 print(f"  Telemetry collected for video {i+1}.")
 
-                # 10. Add a random pause before the next iteration for realistic browsing simulation
-                random_pause = random.uniform(2, 5)
-                print(f"  Pausing for {random_pause:.2f} seconds before next video...")
-                time.sleep(random_pause)
+                # 9. Random pause before next iteration
+                time.sleep(random.uniform(2, 5))
 
             except Exception as e:
-                # Catch any unexpected errors during an iteration and log them
-                print(f"  ❌ An unexpected error occurred during iteration {i+1}: {e}")
-                current_video_data["error"] = str(e) # Add error message to current video's data
-                if "stats" not in current_video_data: # Ensure stats key exists even if error occurred before collection
-                    current_video_data["stats"] = {}
-                telemetry.append(current_video_data) # Append partial data or error data
-                # Add a longer pause for stability if an error occurs
+                print(f"  ❌ Error on iteration {i+1}: {e}")
+                current_video_data["error"] = str(e)
+                if "stats_samples" not in current_video_data:
+                    current_video_data["stats_samples"] = []
+                telemetry.append(current_video_data)
                 time.sleep(random.uniform(5, 10))
 
-        # Close the browser context and browser after all iterations are complete
         context.close()
         browser.close()
         print("\n--- Test Finished ---")
 
-    # 11. Output results to console
+    # Output & save
     print(f"\n💾 Collected telemetry for {len(telemetry)} videos:")
     print(json.dumps(telemetry, indent=2, ensure_ascii=False))
-
-    # 12. Optionally write telemetry to a JSON file
     try:
         with open("twitch_telemetry.json", "w", encoding="utf-8") as f:
             json.dump(telemetry, f, indent=2, ensure_ascii=False)
@@ -145,15 +116,15 @@ def run_twitch_test(num_videos: int):
     except Exception as e:
         print(f"Error saving telemetry to file: {e}")
 
-# Main execution block to prompt user for input and run the test
 if __name__ == "__main__":
     try:
         num_videos_to_process = int(input("How many random Twitch videos should I process? "))
-        if num_videos_to_process <= 0:
-            print("Please enter a positive number for the number of videos.")
+        duration_seconds = int(input("How many seconds of stats to collect per video? "))
+        if num_videos_to_process <= 0 or duration_seconds <= 0:
+            print("Please enter positive numbers for both inputs.")
         else:
-            run_twitch_test(num_videos_to_process)
+            run_twitch_test(num_videos_to_process, duration_seconds)
     except ValueError:
-        print("Invalid input. Please enter a numerical value.")
+        print("Invalid input. Please enter numerical values.")
     except KeyboardInterrupt:
-        print("\nTest interrupted by user. Exiting gracefully.")
+        print("\nTest interrupted by user. Exiting.")
